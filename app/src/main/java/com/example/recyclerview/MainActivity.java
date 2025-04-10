@@ -30,12 +30,13 @@ public class MainActivity extends AppCompatActivity implements MakananAdapter.On
         // Deklarasi dan inisialisasi List
         ArrayList<ModelMakanan> listMakanan = new ArrayList<>();
 
-        listMakanan.add(new ModelMakanan("Sate Ayam","Rp.10.000", R.drawable.sate));
+        listMakanan.add(new ModelMakanan("Sate Ayam","Rp10.000", R.drawable.sate));
         listMakanan.add(new ModelMakanan("Bakso","Rp10.000" ,R.drawable.bakso));
         listMakanan.add(new ModelMakanan("Mie Goreng","Rp7.000", R.drawable.migoreng));
         listMakanan.add(new ModelMakanan("Es Buah","Rp10.000", R.drawable.esbuah));
-        listMakanan.add(new ModelMakanan("Ayam bakar","Rp20.000", R.drawable.ayambakar));
-        listMakanan.add(new ModelMakanan("Mie ayam","Rp8.000", R.drawable.miayam));
+        listMakanan.add(new ModelMakanan("Ayam Bakar","Rp20.000", R.drawable.ayambakar));
+        listMakanan.add(new ModelMakanan("Mie Ayam","Rp8.000", R.drawable.miayam));
+        listMakanan.add(new ModelMakanan("Rendang","Rp25.000", R.drawable.rendang));
 
         //call adapter class
         MakananAdapter adaptermakanan = new MakananAdapter(listMakanan, this);
